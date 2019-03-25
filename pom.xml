@@ -150,4 +150,10 @@
         </plugins>
     </build>
 
+<developers>
+<developer>
+<name>Eduardo Lira</name>
+<email>lira.eduardo.t@gmail.com</email>
+</developer>
+</developers>
 </project>
