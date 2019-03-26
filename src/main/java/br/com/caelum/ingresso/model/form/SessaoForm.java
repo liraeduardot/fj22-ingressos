@@ -18,7 +18,7 @@ public class SessaoForm {
 	@NotNull
 	private Integer SalaId;
 	@DateTimeFormat(pattern="HH:mm")
-	@NotNull
+	@NotNull ()
 	private LocalTime horario;
 	@NotNull
 	private Integer filmeId;
@@ -55,6 +55,14 @@ public class SessaoForm {
 
 	public void setFilmeId(Integer filmeId) {
 		this.filmeId = filmeId;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
 	}
 	
 	
