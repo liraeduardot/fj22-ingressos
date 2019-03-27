@@ -3,7 +3,6 @@ package br.com.caelum.ingresso.model;
 import java.math.BigDecimal;
 import java.time.Duration;
 import java.time.LocalTime;
-
 import org.junit.Assert;
 import org.junit.Test;
 
