@@ -18,7 +18,7 @@ public class SessaoTest {
 		
 		BigDecimal somaDosPrecosDaSalaEFilme = sala.getPreco().add(filme.getPreco());
 		
-		Sessao sessao = new Sessao(LocalTime.parse("10.00.00"), filme, sala);
+		Sessao sessao = new Sessao(LocalTime.parse("10:00:00"), filme, sala);
 		
 		Assert.assertEquals( somaDosPrecosDaSalaEFilme, sessao.getPreco());
 		
